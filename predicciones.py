@@ -110,7 +110,6 @@ def RungeKutta(angulo, vi, x0):
         y_values.append(y_new)
 
     return int(MetrosAPixeles(x0)), int(MetrosAPixeles(y_values[-1]))
-
 """ def InterpolacionLineal(angulo, vi, x0):
     x0 = PixelesAMetros(x0)
     x1 = x0 + 1
