@@ -253,7 +253,6 @@ while True:
 
             # Si no, dibujar una linea entre el punto anterior y el actual
             grosor = int(buffer / float(i + 1))
-            print(puntos_predichos[i - 1], puntos_predichos[i])
             cv.line(cuadro, puntos_predichos[i - 1], puntos_predichos[i], (255, 0, 0), grosor)
 
     for i in range(1, len(puntos_reales)):
