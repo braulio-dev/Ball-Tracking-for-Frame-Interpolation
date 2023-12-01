@@ -5,7 +5,7 @@
 python main.py -a [archivo] -r [radio en metros]
 ```
 
-Opcionalmente, se puede elegir el metodo numérico a utilizar en el programa de los siguientes: TAYLOR, RUNGE_KUTTA, EULER
+Opcionalmente, se puede elegir el metodo numérico a utilizar en el programa de los siguientes: `TAYLOR`, `RUNGE_KUTTA`, `EULER`
 ```bash
 python main.py -a [archivo] -r [radio en metros] -m [método]
 ```
